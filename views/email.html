@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reset Password - Badan Pusat Statistik Kota Mojokerto</title>
+  </head>
+  <body style="font-family: Arial, sans-serif; line-height: 1.6">
+    <div style="max-width: 600px; margin: 0 auto; padding: 20px">
+      <div>
+        <h1 style="text-align: center; margin: 0">Reset Password</h1>
+      </div>
+      <p>Hello {{ username }},</p>
+      <p>
+        Kami mendapat permintaan untuk mengatur ulang password akun Anda di
+        aplikasi Permintaan Barang Badan Pusat Statistik Kota Mojokerto. Jika
+        Anda tidak melakukan permintaan ini, Anda dapat mengabaikan email ini.
+      </p>
+      <p>
+        Jika Anda ingin mengatur ulang password akun Anda, silakan klik link di
+        bawah ini:
+      </p>
+      <p style="text-align: center">
+        <a
+          href="{{ url }}"
+          style="
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+          "
+          >Reset Password</a
+        >
+      </p>
+      <p>
+        Link ini akan berlaku untuk 1 jam setelah email ini dikirim. Jika Anda
+        mengalami masalah, silakan hubungi dukungan kami.
+      </p>
+      <p>Terima kasih,</p>
+      <p>Tim Support Badan Pusat Statistik Kota Mojokerto</p>
+    </div>
+  </body>
+</html>
